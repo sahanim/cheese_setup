@@ -15,6 +15,7 @@ sudo chmod +x dropbox_uploader.sh
 
 #python
 sudo apt-get install python-pip
+sudo pip install ystockquote
 
 #anaconda #numpy+mkl #scipy
 cd ~/vm_setup/cheese_setup/anaconda
@@ -22,3 +23,4 @@ wget "wget http://repo.continuum.io/archive/Anaconda3-4.0.0-Linux-x86_64.sh"
 sudo bash Anaconda*.sh
 
 #documents
+cd ~/vm_setup/cheese_setup/documents
